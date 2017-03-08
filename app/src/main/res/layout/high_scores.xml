@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/titleHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BEST SCORE EVER!"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+ <!--   <TextView
+        android:id="@+id/spot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleHighScore"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/titleHighScore"
+        android:layout_toStartOf="@+id/titleHighScore"
+        android:text="1."
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/spot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spot1"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/titleHighScore"
+        android:layout_toStartOf="@+id/titleHighScore"
+        android:text="2."
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/spot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spot2"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/titleHighScore"
+        android:layout_toStartOf="@+id/titleHighScore"
+        android:text="3."
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+-->
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+ <!--   <TextView
+        android:id="@+id/score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spot2"
+        android:layout_alignBottom="@+id/spot2"
+        android:layout_toEndOf="@+id/spot2"
+        android:layout_toRightOf="@+id/spot2"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/score3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spot3"
+        android:layout_alignBottom="@+id/spot3"
+        android:layout_toEndOf="@+id/spot3"
+        android:layout_toRightOf="@+id/spot3"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+-->
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Back" />
+
+</RelativeLayout>
